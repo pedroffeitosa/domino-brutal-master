@@ -1,20 +1,31 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+target/
+
+# Eclipse
 .classpath
 .project
-.settings
+.settings/
 
-# Compiled class file
+# VS Code
+.vscode/
+
+# Compiled class files
 *.class
 
-# Log file
+# Logs
 *.log
 
-# BlueJ files
+# BlueJ
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -23,5 +34,15 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# VM crash logs
 hs_err_pid*
+replay_pid*
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Optional: ignore generated docs
+doc/
